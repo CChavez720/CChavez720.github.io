@@ -1,0 +1,5 @@
+<!-- public/favicon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="10" fill="#0f172a"/>
+  <path d="M12 34L20 14L24 24L28 14L36 34H32L27 22L24 30L21 22L16 34H12Z" fill="#00f0ff"/>
+</svg>

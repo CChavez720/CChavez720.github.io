@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .fade-in {
+    animation: fadeIn 1s ease-out both;
+  }
+
+  .rotate-3d-1 {
+    transform: rotateX(40deg) rotateY(45deg);
+  }
+
+  .animate-spin-slow {
+    animation: spin 10s linear infinite;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotateY(0deg) rotateX(40deg);
+    }
+    to {
+      transform: rotateY(360deg) rotateX(40deg);
+    }
+  }
+}
