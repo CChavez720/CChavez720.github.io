@@ -9,7 +9,7 @@ export default function Hero() {
       <Tetraedro />
 
       <div className="relative z-10">
-        <h2 className="text-4xl md:text-6xl font-extrabold mb-4 bg-gradient-to-r from-neon via-white to-glitch text-transparent bg-clip-text">
+        <h2 className="text-4xl md:text-6xl font-extrabold mb-4 pb-3 leading-[1.2] bg-gradient-to-r from-neon via-white to-glitch text-transparent bg-clip-text">
           Hola, soy Camilo
         </h2>
         <p className="text-lg md:text-xl text-gray-300 max-w-xl mb-6">
